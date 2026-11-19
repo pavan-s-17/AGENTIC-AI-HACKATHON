@@ -1,0 +1,45 @@
+# Node / Frontend Dependencies & Builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database & runtime files
+*.db
+*.sqlite
+*.sqlite3
+
+# Explicitly track essential sample and database generator assets
+!backend/database.py
+!backend/sample_invoices/generate_samples.py
+!backend/sample_invoices/*.pdf
+!backend/sample_invoices/*.jpg
